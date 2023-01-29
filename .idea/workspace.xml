@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c01817c3-ee2a-4e52-9e2b-fe225ccc1e95" name="Changes" comment="Finished practice problem 2">
-      <change afterPath="$PROJECT_DIR$/src/Netbook.java" afterDir="false" />
+    <list default="true" id="c01817c3-ee2a-4e52-9e2b-fe225ccc1e95" name="Changes" comment="Finished practice problem 3">
+      <change afterPath="$PROJECT_DIR$/src/Device.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mp3Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PortableDevice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Laptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Laptop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Netbook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Netbook.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -103,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675002205249</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Finished practice problem 3">
+      <created>1675002551086</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675002551086</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -111,6 +124,7 @@
     <MESSAGE value="Added gitignore" />
     <MESSAGE value="Finished practice problem 1" />
     <MESSAGE value="Finished practice problem 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished practice problem 2" />
+    <MESSAGE value="Finished practice problem 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished practice problem 3" />
   </component>
 </project>

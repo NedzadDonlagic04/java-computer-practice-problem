@@ -1,32 +1,14 @@
-public abstract class Computer {
-    private String model;
-    private String manufacturer;
+public abstract class Computer extends Device {
     private String operatingSystem;
 
     public Computer(String model, String manufacturer, String operatingSystem) {
-        this.model = model;
-        this.manufacturer = manufacturer;
+        super(model, manufacturer);
+
         this.operatingSystem = operatingSystem;
-    }
-
-    public void setModel(String model) {
-        this.model = model;
-    }
-
-    public void setManufacturer(String manufacturer) {
-        this.manufacturer = manufacturer;
     }
 
     public void setOperatingSystem(String operatingSystem) {
         this.operatingSystem = operatingSystem;
-    }
-
-    public String getModel() {
-        return this.model;
-    }
-
-    public String getManufacturer() {
-        return this.manufacturer;
     }
 
     public String getOperatingSystem() {
@@ -35,7 +17,7 @@ public abstract class Computer {
 
     @Override
     public String toString() {
-        return this.model + ", manufacturer=" + this.manufacturer + ",  operatingSystem=" + this.operatingSystem;
+        return super.toString() + ", operatingSystem=" + this.operatingSystem;
     }
 
     public abstract String getComputerType();
