@@ -19,4 +19,12 @@ public class Desktop extends Computer{
     public String toString() {
         return super.toString() + ", caseHeight=" + this.caseHeight;
     }
+
+    public String getComputerType() {
+        return "desktop";
+    }
+
+    public int calculatePortabilityScore() {
+        return (int) (5 + this.caseHeight / 30);
+    }
 }

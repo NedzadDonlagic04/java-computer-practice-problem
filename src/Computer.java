@@ -1,4 +1,4 @@
-public class Computer {
+public abstract class Computer {
     private String model;
     private String manufacturer;
     private String operatingSystem;
@@ -37,4 +37,8 @@ public class Computer {
     public String toString() {
         return this.model + ", manufacturer=" + this.manufacturer + ",  operatingSystem=" + this.operatingSystem;
     }
+
+    public abstract String getComputerType();
+
+    public abstract int calculatePortabilityScore();
 }

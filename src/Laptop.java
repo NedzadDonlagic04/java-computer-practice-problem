@@ -29,4 +29,12 @@ public class Laptop extends Computer{
     public String toString() {
         return super.toString() + ", batteryCapacity=" + this.batteryCapacity + ", weight=" + this.weight;
     }
+
+    public String getComputerType() {
+        return "laptop";
+    }
+
+    public int calculatePortabilityScore() {
+        return (int) (this.weight);
+    }
 }
