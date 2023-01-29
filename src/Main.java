@@ -10,7 +10,5 @@ public class Main {
         System.out.println(netbook);
         System.out.println(mp3Player);
         System.out.println();
-
-
     }
 }
