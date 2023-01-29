@@ -1,4 +1,4 @@
-# computer-practice-problem
+# java-computer-practice-problem
 In this project I will be doing a few practice
 problems whose subject is mainly computers.
 The description will be found only here in the
